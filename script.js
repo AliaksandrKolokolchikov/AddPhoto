@@ -1,7 +1,12 @@
-let offset = 0;
-const sliderLine = document.querySelector('.slider--line');
+const openPopUp = document.querySelector('#open_pop_up')
+const closePopUp = document.querySelector('#pop_up_close')
+const popUp = document.querySelector('#pop_up')
 
-document.querySelector('.leftarrow'), addEventListener('click', function () {
-    offset = offset + 555;
-    sliderLine.style.left = offset + 'px'
+openPopUp.addEventListener('click', function (e) {
+    e.preventDefault();
+    popUp.classList.add('active');
+})
+
+closePopUp.addEventListener('click', () => {
+    popUp.classList.remove('active');
 })

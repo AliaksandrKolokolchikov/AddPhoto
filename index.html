@@ -48,7 +48,42 @@
                 заявляем, что нашей фотостудией вы останетесь довольны
                 и еще не раз захотите возвращаться к нам. </div>
 
-            <button class="prof--studio__consultation consultation--input">Получить консультацию</button>
+            <button class="prof--studio__consultation consultation--input pop__up--button"><a href="#"
+                    id="open_pop_up">Получить
+                    консультацию</a></button>
+            <!-- POP Up -->
+            <div class="prof--studio__popup" id="pop_up">
+                <div class="prof--studio__popup-container">
+                    <div class="prof--studio-popupbody " id="pop_up_body">
+                        <div class="prof--studio-columnone">
+                            <img class="prof--studio-column__img" src="./img/Group 1846.png" alt="#">
+                        </div>
+                        <div class="prof--studio-columntwo">
+                            <p class="prof--studio-column__title">Форма обратной связи</p>
+                            <form action="">
+                                <div class="prof--studio-column__info">
+                                    <p>Имя</p>
+                                    <input class="prof--studio-column__input input__text" type="text"
+                                        placeholder="Введите ваше имя">
+                                    <p>E-mail</p>
+                                    <input class="prof--studio-column__input input__text" type="text"
+                                        placeholder="Введите ваш E-mail">
+                                    <p>Телефон</p>
+                                    <input class="prof--studio-column__input input__text" type="text"
+                                        placeholder="Введите ваше Телефон">
+                                </div>
+                            </form>
+                            <button
+                                class="prof--studio-column__button prof--studio-column__button-text">Отправить</button>
+                            <p class="prof--studio-column__politic">Нажимая кнопку «Отправить», вы даете согласие на
+                                обработку персональных данных и соглашаетесь с
+                                <span>политикой конфиденциальности</span>
+                            </p>
+                        </div>
+                        <div class="prof--studio__pop--upclose" id="pop_up_close">&#10006</div>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <section class="ourwork--container">
@@ -364,8 +399,10 @@
 
         <section class="recall">
             <div class="recall--title">Отзывы</div>
-
-            <img class="recall--arrowleft" src="./img/Group 1812.png" alt="#">
+            <div class="recall--arrow__container">
+                <img class="recall--arrowleft" src="./img/Group 1812.png" alt="#">
+                <img class="recall--arrowright" src="./img/Group 1811.png" alt="#">
+            </div>
             <div class="recall--column__left">
                 <div class="recall--info">
                     <img class="recall--img" src="./img/Group 5.png" alt="#">
@@ -375,6 +412,7 @@
                         французских булок, да выпей чаю. Съешь еще этих мягких французских булок, да выпей чаю.</div>
                     <div class="recall--menu">Показать ещё</div>
                 </div>
+
                 <!-- <img class="recall--img" src="./img/Group 6.png" alt="#">
                 <div class="recall--name">Сергей</div>
                 <div class="recall--text">Съешь еще этих мягких французских булок, да выпей чаю. Съешь еще этих мягких
@@ -387,7 +425,7 @@
                     французских булок, да выпей чаю. Съешь еще этих мягких французских булок, да выпей чаю.</div>
                 <div class="recall--menu">Показать ещё</div>
             </div>
-            <img class="recall--arrowright" src="./img/Group 1811.png" alt="#"> -->
+             -->
         </section>
     </main>
 </body>
