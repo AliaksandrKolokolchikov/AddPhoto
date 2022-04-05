@@ -88,12 +88,15 @@
 
         <section class="ourwork--container">
             <div class="ourwork">Наши работы</div>
-            <img class="ourwork--picleft" src="./img/Pic left.png" alt="#">
-            <img class="ourwork--piccenter" src="./img/Pic Center.png" alt="#">
-            <img class="ourwork--picright" src="./img/Pic Right.png" alt="#">
-            <img class="leftarrow" src="./img/Group 1811.png" alt="#">
-            <img class="rightarrow" src="./img/Group 1812.png" alt="#">
-
+            <div class="ourwork--pictcontainer">
+                <img class="ourwork--picleft" src="./img/Pic left.png" alt="#">
+                <img class="ourwork--piccenter" src="./img/Pic Center.png" alt="#">
+                <img class="ourwork--picright" src="./img/Pic Right.png" alt="#">
+            </div>
+            <div class="ourwork--aroowcontainer">
+                <img class="leftarrow" src="./img/Group 1812.png" alt="#">
+                <img class="rightarrow" src="./img/Group 1811.png" alt="#">
+            </div>
         </section>
 
         <section class="ourlocation">
@@ -399,35 +402,90 @@
 
         <section class="recall">
             <div class="recall--title">Отзывы</div>
-            <div class="recall--arrow__container">
+            <!-- <div class="recall--arrow__container">
                 <img class="recall--arrowleft" src="./img/Group 1812.png" alt="#">
                 <img class="recall--arrowright" src="./img/Group 1811.png" alt="#">
-            </div>
-            <div class="recall--column__left">
-                <div class="recall--info">
-                    <img class="recall--img" src="./img/Group 5.png" alt="#">
-                    <div class="recall--name">Мария</div>
-                    <div class="recall--text">Съешь еще этих мягких французских булок, да выпей чаю. Съешь еще этих
+            </div> -->
+            <div class="recall--info__container">
+                <div class="recall--column__left">
+                    <div class="recall--info">
+                        <img class="recall--img" src="./img/Group 5.png" alt="#">
+                        <div class="recall--name">Мария</div>
+                        <div class="recall--text">Съешь еще этих мягких французских булок, да выпей чаю. Съешь еще этих
+                            мягких
+                            французских булок, да выпей чаю. Съешь еще этих мягких французских булок, да выпей чаю.
+                        </div>
+                        <div class="recall--menu">Показать ещё</div>
+                    </div>
+                </div>
+                <div class="recall--column__center">
+                    <img class="recall--img__serg" src="./img/Group 6.png" alt="#">
+                    <div class="recall--name serg__name">Сергей</div>
+                    <div class="recall--text serg__text">Съешь еще этих мягких французских булок, да выпей чаю. Съешь
+                        еще этих
                         мягких
                         французских булок, да выпей чаю. Съешь еще этих мягких французских булок, да выпей чаю.</div>
                     <div class="recall--menu">Показать ещё</div>
                 </div>
 
-                <!-- <img class="recall--img" src="./img/Group 6.png" alt="#">
-                <div class="recall--name">Сергей</div>
-                <div class="recall--text">Съешь еще этих мягких французских булок, да выпей чаю. Съешь еще этих мягких
-                    французских булок, да выпей чаю. Съешь еще этих мягких французских булок, да выпей чаю.</div>
-                <div class="recall--menu">Показать ещё</div>
-
-                <img class="recall--img" src="./img/Group 1267.png" alt="#">
-                <div class="recall--name">Руслан</div>
-                <div class="recall--text">Съешь еще этих мягких французских булок, да выпей чаю. Съешь еще этих мягких
+                <img class="recall--img__ruslan" src="./img/Group 1267.png" alt="#">
+                <div class="recall--name ruslan__name">Руслан</div>
+                <div class="recall--text ruslan__text">Съешь еще этих мягких французских булок, да выпей чаю. Съешь еще
+                    этих мягких
                     французских булок, да выпей чаю. Съешь еще этих мягких французских булок, да выпей чаю.</div>
                 <div class="recall--menu">Показать ещё</div>
             </div>
-             -->
+        </section>
+
+        <section class="mapadd">
+            <div class="mapadd--container">
+                <div class="mapadd--columnone">
+                    <img class="map" src="./img/Rectangle 487.png" alt="#">
+                    <img class="mapaddinfo" src="./img/Group 1804.png" alt="#">
+                </div>
+                <div class="mapadd--columntwo">
+                    <p class="mapadd--title">Форма обратной связи</p>
+                    <form action="">
+                        <div class="mapadd--info">
+                            <p>Имя</p>
+                            <input class="mapadd--input input__text" type="text" placeholder="Введите ваше имя">
+                            <p>E-mail</p>
+                            <input class="mapadd--input input__text" type="text" placeholder="Введите ваш E-mail">
+                            <p>Телефон</p>
+                            <input class="mapadd--input input__text" type="text" placeholder="Введите ваше Телефон">
+                        </div>
+                        <button class="mapadd__button mapadd__button-text">Отправить</button>
+                        <p class="mapadd__politic">Нажимая кнопку «Отправить», вы даете согласие на
+                            обработку персональных данных и соглашаетесь с
+                            <span>политикой конфиденциальности</span>
+                        </p>
+                </div>
+                </form>
+            </div>
         </section>
     </main>
+
+    <footer>
+        <nav class="footer--container">
+            <ul class="footer--list">
+                <li class=" footer--img"> <img src="./img/Слой 2.png" alt="#"></li>
+                <li class="footer--list__item">Портфолио</li>
+                <li class="footer--list__item">Виды работ</li>
+                <li class="footer--list__item">О фотостудии</li>
+                <li class="footer--list__item">Услуги и цены</li>
+                <li class="footer--list__item">Отзывы</li>
+                <li class="footer--list__item">Контакты</li>
+            </ul>
+            <div class="footer--list__line"></div>
+            <div class="footer--list--net">
+                <div class="footer--list--net__title">Наши социцальные сети:</div>
+                <img src="./img/INSTAGRAM 3.png" alt="#" class="footer--list__social">
+                <img src="./img/FACEBOOK 2.png" alt="#" class="footer--list__social">
+                <img src="./img/TWITTER 3.png" alt="#" class="footer--list__social">
+                <img src="./img/TELEGRAM 2.png" alt="#" class="footer--list__social">
+            </div>
+        </nav>
+    </footer>
 </body>
 <script src="./script.js"></script>
 
