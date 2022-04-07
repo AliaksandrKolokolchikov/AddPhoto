@@ -21,18 +21,14 @@
         </div>
         <nav class="header--navigation">
             <ul class="navigation--list">
-                <div class="header--center">
-                    <li class="navigation--item"><a class="navigation--click" href="#">Портфолио</a></li>
-                    <li class="navigation--item"><a class="navigation--click" href="#">Виды работ</a></li>
-                    <li class="navigation--item"><a class="navigation--click" href="#">О фотостудии</a></li>
-                    <li class="navigation--item"><a class="navigation--click" href="#">Услуги и цены</a></li>
-                    <li class="navigation--item"><a class="navigation--click" href="#">Контакты</a></li>
-                </div>
-                <div class="right">
-                    <li class="navigation--item borderorange">ОБРАТНЫЙ ЗВОНОК</li>
-                    <li class="navigation--item mobile"><a class="navigation--click" href="tel:+7 (499) 344 60 91">+7
-                            (499) 344 60 91</a></li>
-                </div>
+                <li class="navigation--item"><a class="navigation--click" href="#">Портфолио</a></li>
+                <li class="navigation--item"><a class="navigation--click" href="#">Виды работ</a></li>
+                <li class="navigation--item"><a class="navigation--click" href="#">О фотостудии</a></li>
+                <li class="navigation--item"><a class="navigation--click" href="#">Услуги и цены</a></li>
+                <li class="navigation--item"><a class="navigation--click" href="#">Контакты</a></li>
+                <li class="navigation--item borderorange text__orange">ОБРАТНЫЙ ЗВОНОК</li>
+                <li class="navigation--item mobile"><a class="navigation--click" href="tel:+7 (499) 344 60 91">+7
+                        (499) 344 60 91</a></li>
             </ul>
         </nav>
     </header>
@@ -101,17 +97,18 @@
 
         <section class="ourlocation">
             <div class="ourlocation--title">Наши локации</div>
+
             <div class="ourlocation--piccontainer">
-                <div class="ourlocation--line">
-                    <img class="ourlocation--pictures" src="./img/image 798.png" alt="#">
-                    <img class="ourlocation--pictures" src="./img/image 795.png" alt="#">
-                    <img class="ourlocation--pictures" src="./img/image 796.png" alt="#">
-                </div>
-                <div class="ourlocation--arrowcontainer">
-                    <img class="ourlocation--arrow arrow__left" src="./img/Group 1812.png" alt="#">
-                    <img class="ourlocation--arrow" src="./img/Group 1811.png" alt="#">
-                </div>
+                <img class="ourlocation--pictures" src="./img/image 798.png" alt="#">
+                <img class="ourlocation--pictures" src="./img/image 795.png" alt="#">
+                <img class="ourlocation--pictures" src="./img/image 796.png" alt="#">
             </div>
+            <div class="ourlocation--arrowcontainer">
+                <div class="ourlocation--line"> <img src="./img/Line 7.png" alt="#"></div>
+                <img class="ourlocation--arrow arrow__left" src="./img/Group 1812.png" alt="#">
+                <img class="ourlocation--arrow arrow__right" src="./img/Group 1811.png" alt="#">
+            </div>
+
             <button class="prof--studio__consultation consultation--input location__button">Выбрать локацию</button>
         </section>
 
@@ -402,10 +399,10 @@
 
         <section class="recall">
             <div class="recall--title">Отзывы</div>
-            <!-- <div class="recall--arrow__container">
+            <div class="recall--arrow__container">
                 <img class="recall--arrowleft" src="./img/Group 1812.png" alt="#">
                 <img class="recall--arrowright" src="./img/Group 1811.png" alt="#">
-            </div> -->
+            </div>
             <div class="recall--info__container">
                 <div class="recall--column__left">
                     <div class="recall--info">
@@ -425,23 +422,28 @@
                         еще этих
                         мягких
                         французских булок, да выпей чаю. Съешь еще этих мягких французских булок, да выпей чаю.</div>
-                    <div class="recall--menu">Показать ещё</div>
+                    <div class="recall--menu serg__menu">Показать ещё</div>
+                    <button class="serg__button serg__button-text">Добавить отзыв</button>
                 </div>
 
                 <img class="recall--img__ruslan" src="./img/Group 1267.png" alt="#">
                 <div class="recall--name ruslan__name">Руслан</div>
-                <div class="recall--text ruslan__text">Съешь еще этих мягких французских булок, да выпей чаю. Съешь еще
+                <div class="recall--text ruslan__text">Съешь еще этих мягких французских булок, да выпей чаю. Съешь
+                    еще
                     этих мягких
                     французских булок, да выпей чаю. Съешь еще этих мягких французских булок, да выпей чаю.</div>
-                <div class="recall--menu">Показать ещё</div>
+                <div class="recall--menu ruslan__menu">Показать ещё</div>
             </div>
         </section>
 
         <section class="mapadd">
             <div class="mapadd--container">
                 <div class="mapadd--columnone">
-                    <img class="map" src="./img/Rectangle 487.png" alt="#">
                     <img class="mapaddinfo" src="./img/Group 1804.png" alt="#">
+                    <div class="map">
+                        <script type="text/javascript" charset="utf-8" async
+                            src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A837dda55e50186a383fbeff9f1992ac47e980a0c6d035c46075a0b20251581b2&amp;width=848&amp;height=541&amp;lang=ru_RU&amp;scroll=true"></script>
+                    </div>
                 </div>
                 <div class="mapadd--columntwo">
                     <p class="mapadd--title">Форма обратной связи</p>
@@ -479,7 +481,9 @@
             <div class="footer--list__line"></div>
             <div class="footer--list--net">
                 <div class="footer--list--net__title">Наши социцальные сети:</div>
-                <img src="./img/INSTAGRAM 3.png" alt="#" class="footer--list__social">
+                <a href="#">
+                    <img src="./img/INSTAGRAM 3.png" alt="#" class="footer--list__social">
+                </a>
                 <img src="./img/FACEBOOK 2.png" alt="#" class="footer--list__social">
                 <img src="./img/TWITTER 3.png" alt="#" class="footer--list__social">
                 <img src="./img/TELEGRAM 2.png" alt="#" class="footer--list__social">
